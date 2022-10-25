@@ -3,12 +3,62 @@
 	<head>
 		<title>My Blog</title>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width:device-width initial-scale=0.1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Web designing tutorial course">
-	</head>
-	<body>
-		<header>
+		<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+		<style>
+		
+			html{
 			
+				font-family: 'Quicksand', sans-serif;
+				color: #1a1a1a;	
+			}
+			
+			.background {
+				background: #d8d8d8;
+			}
+			
+			header {
+				text-align: center;
+				display: flex;
+				flex-direction: column;
+			}
+			
+			header h1 {
+				margin: 0;
+				padding: 15px;
+			}
+			
+			li{
+				list-style: none;
+				padding: 10px;
+			}
+			
+			ul{
+				padding: 0;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<header class="background">
+			<h1>My Blog</h1>
+			
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about_me.html">About Me</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact_me.html">Contact Me</a></li>
+				</ul>
+			</nav>
 		</header>
+		
+		<div>
+			<p class="background">Hi, I am Aloysius <br> follow me on my journey around the world! </p>
+		</div>
 	</body>
 </html>
